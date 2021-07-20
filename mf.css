@@ -1,0 +1,42 @@
+.top-nav {
+	color: black;
+	font-family: monospace;
+	background-color: green;
+	width: 100%;
+}
+@media(min-width: 1500)
+{
+	.a-lg {
+		display: block;
+	}
+	.b-lg {
+		display: none;
+	}
+}
+@media (min-width: 1000) and (max-width: 1499)
+{
+	.a-md {
+		display: block;
+	}
+		.b-md {
+		display: none;
+	}
+}
+@media (min-width: 500) and (max-width: 999)
+{
+	.a-s {
+		display: block;
+	}
+		.b-s {
+		display: none;
+	}
+}
+@media (min-width: 0) and (max-width: 499)
+{
+	.a-xs {
+		display: block;
+	}
+		.b-xs {
+		display: none;
+	}
+}
